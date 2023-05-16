@@ -27,7 +27,12 @@ body{
     background: #fff;
     max-width: 400px;
     border-radius: 5px;
-    padding: 16px 25 px;
+    padding: 16px 25px 0;
+    transition: height 0.2s ease ;
+}
+
+.cod.active{
+height: 530px;
 }
 
 header h1{
@@ -43,7 +48,7 @@ header p{
 }
 
 .cod .form{
-     margin: 30px 0 30px;
+     margin: 20px 0 25px;
      padding: 1px;
 
 }
@@ -74,7 +79,7 @@ header p{
     margin-top: 10px;
     font-size: 20px;
     background: linear-gradient(#e66465, #9198e5);
-    border-radius: 5px;
+    border-radius: 20px;
     
 }
 
@@ -85,10 +90,20 @@ header p{
     border-radius: 5px;
     padding: 33px 0;
     border: 2px solid #ccc;
-    opacity: 0;
+    opacity: 0;                          ;
     pointer-events: none;
 
 }
+
+
+.cod.active .imagem{
+
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.5s 0.5s ease;
+
+}
+
 
 
 /* EM CONSTRUÇÃO */
